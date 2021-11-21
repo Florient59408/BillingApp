@@ -31,8 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="SerializationLibrary">
-      <HintPath>..\..\SerializationLibrary\SerializationLibrary\bin\Debug\SerializationLibrary.dll</HintPath>
+    <Reference Include="SerializationLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\serialize\SerializationLibrary.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
